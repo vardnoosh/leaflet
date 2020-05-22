@@ -8,7 +8,7 @@ Date 2018-12-20
 
 # This shows the population of the three cities.
 
-```{r, echo=TRUE}
+```{r, echo=TRUE , warning=FALSE}
 library(leaflet)
 cities <- data.frame(name = c("Montreal","Ottawa","Toronto"),
 pop = c(1705000,934240,2732000),
